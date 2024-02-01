@@ -1,0 +1,23 @@
+title = "Alpaca Driver (Switch)"
+
+[network]
+ip_address = ""
+port = 5555
+
+[server]
+location = "Anywhere on Earth"
+verbose_driver_exceptions = true
+
+[switch]
+s1_ip = "192.168.1.122"
+s2_ip = "192.168.1.141"
+s3_ip = "192.168.1.142"
+s1_name = "big dome "
+s2_name = "scope power"
+s3_name = "lights"
+
+[logging]
+log_level = "INFO"
+log_to_stdout = false
+max_size_mb = 5
+num_keep_logs = 10
